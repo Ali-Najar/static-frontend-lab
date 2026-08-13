@@ -107,3 +107,20 @@ body {
         font-size: 18px;
     }
 }
+
+.primary-button {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 14px 24px;
+
+    background-color: #2563eb;
+    color: #ffffff;
+
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.primary-button:hover {
+    background-color: #1d4ed8;
+}
