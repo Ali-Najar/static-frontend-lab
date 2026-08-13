@@ -245,3 +245,16 @@ body {
     margin: 0;
 }
 
+
+.theme-button {
+    width: 42px;
+    height: 42px;
+
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    cursor: pointer;
+    font-size: 18px;
+}
