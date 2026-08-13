@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
     <title>TeamFlow</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -10,11 +14,149 @@
 
 <body>
 
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">TeamFlow</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#team">Team</a></li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <h1>TeamFlow</h1>
-        <p>A simple static frontend project.</p>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="hero-label">
+                    Simple Team Management
+                </p>
+
+                <h1>
+                    Build Better Teams Together
+                </h1>
+
+                <p class="hero-description">
+                    TeamFlow helps teams organize their work,
+                    communicate clearly, and achieve their goals.
+                    <a href="#features" class="primary-button">
+                        Explore Features
+                    </a>
+                </p>
+            </div>
+        </section>
+        <section class="features section" id="features">
+            <div class="section-heading">
+                <p class="section-label">Features</p>
+
+                <h2>
+                    Everything your team needs
+                </h2>
+
+                <p>
+                    Simple tools designed to make teamwork easier.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+                    <h3>Task Management</h3>
+
+                    <p>
+                        Organize tasks and keep track of your team's progress.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Team Collaboration</h3>
+
+                    <p>
+                        Keep important information in one place for everyone.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Progress Tracking</h3>
+
+                    <p>
+                        See what has been completed and what still needs attention.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+        <section class="team section" id="team">
+
+            <div class="section-heading">
+                <p class="section-label">
+                    Team
+                </p>
+
+                <h2>
+                    Meet the developer
+                </h2>
+
+                <p>
+                    This project was implemented individually
+                    for the Software Engineering Lab.
+                </p>
+            </div>
+
+            <div class="team-card">
+
+                <div class="avatar">
+                    AN
+                </div>
+
+                <h3>Ali Najar</h3>
+
+                <p>
+                    Developer
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="contact section" id="contact">
+
+            <div class="section-heading">
+                <p class="section-label">
+                    Contact
+                </p>
+
+                <h2>
+                    Let's work together
+                </h2>
+
+                <p>
+                    This section demonstrates another component
+                    of the static frontend.
+                </p>
+            </div>
+
+            <div class="contact-box">
+                <a href="mailto:example@example.com">
+                    example@example.com
+                </a>
+            </div>
+
+        </section>
     </main>
 
+    <footer class="footer">
+        <p>
+            © 2026 TeamFlow. Software Engineering Lab Project.
+        </p>
+    </footer>
+
     <script src="assets/js/main.js"></script>
+
+
 </body>
 </html>
