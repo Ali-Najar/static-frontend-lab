@@ -245,3 +245,73 @@ body {
     margin: 0;
 }
 
+
+.theme-button {
+    width: 42px;
+    height: 42px;
+
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+
+    background-color: #ffffff;
+
+    cursor: pointer;
+    font-size: 18px;
+}
+
+body.dark-theme {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark-theme .header {
+    background-color: #111827;
+    border-bottom-color: #334155;
+}
+
+body.dark-theme .nav-links a {
+    color: #f8fafc;
+}
+
+body.dark-theme .hero {
+    background-color: #0f172a;
+}
+
+body.dark-theme .hero-description {
+    color: #cbd5e1;
+}
+
+body.dark-theme .features {
+    background-color: #111827;
+}
+
+body.dark-theme .feature-card {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-theme .feature-card p {
+    color: #cbd5e1;
+}
+
+body.dark-theme .team {
+    background-color: #0f172a;
+}
+
+body.dark-theme .team-card {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-theme .team-card p {
+    color: #cbd5e1;
+}
+
+body.dark-theme .section-heading p {
+    color: #cbd5e1;
+}
+
+body.dark-theme .theme-button {
+    background-color: #1e293b;
+    border-color: #475569;
+}
