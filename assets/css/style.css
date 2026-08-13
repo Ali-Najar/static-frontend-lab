@@ -2,13 +2,108 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #2563eb;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    color: #222222;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
+
+.hero {
+    min-height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 100px 24px;
+
+    background-color: #f8fafc;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero-label {
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    color: #555555;
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 0;
 }
 
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+    }
+
+    .hero {
+        padding: 60px 16px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-description {
+        font-size: 18px;
     }
 }
