@@ -15,9 +15,17 @@
 <body>
 
     <header class="header">
-        <nav class="navbar">
+        <nav class="navbar" aria-label="Main navigation">
             <a href="#home" class="logo">TeamFlow</a>
 
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+                aria-label="Open navigation menu"
+            >
+                ☰
+            </button>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#features">Features</a></li>
@@ -26,6 +34,14 @@
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
+            <button
+                class="theme-button"
+                id="themeButton"
+                type="button"
+                aria-label="Change color theme"
+            >
+                🌙
+            </button>
         </nav>
     </header>
 
