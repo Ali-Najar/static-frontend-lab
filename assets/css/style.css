@@ -126,6 +126,15 @@ body {
     .hero-description {
         font-size: 18px;
     }
+
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 60px 16px;
+    }
 }
 
 .primary-button {
