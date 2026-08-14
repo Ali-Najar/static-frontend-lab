@@ -11,3 +11,4 @@ A static frontend project created for the Software Engineering Lab.
 - GitHub
 - GitHub Actions
 - GitHub Pages
+
