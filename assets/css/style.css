@@ -91,8 +91,28 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
     .nav-links {
         display: none;
+
+        width: 100%;
+
+        flex-direction: column;
+        gap: 12px;
+
+        padding-top: 16px;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 
     .hero {
@@ -314,4 +334,14 @@ body.dark-theme .section-heading p {
 body.dark-theme .theme-button {
     background-color: #1e293b;
     border-color: #475569;
+}
+
+.menu-button {
+    display: none;
+
+    border: 0;
+    background-color: transparent;
+
+    font-size: 28px;
+    cursor: pointer;
 }
